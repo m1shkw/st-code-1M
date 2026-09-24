@@ -1,0 +1,10 @@
+- index.html
+- /stylesheets
+- /javastripts
+- /fonts
+- /images
+- /pages
+    - dictionary.html
+    - articles.html
+    - tests.html
+    - /articles
