@@ -4,7 +4,10 @@
 - /fonts
 - /images
 - /pages
-    - dictionary.html
-    - articles.html
-    - tests.html
-    - /articles
+  - dictionary.html
+  - articles.html
+  - tests.html
+  - /articles
+    - aloe.html
+    - monstera.html
+  - /tests
