@@ -6,18 +6,115 @@
     <title>Главная</title>
   </head>
 
-  <body>
-    <h1>Главная</h1>
+  <body class="index">
+    <header class="header">
+      <a class="header__logo" href="#header">
+        <svg class="logo__icon" viewBox="0 0 200 200">
+          <g>
+            <ellipse cx="100" cy="52" rx="24" ry="46"></ellipse>
+            <ellipse
+              cx="100"
+              cy="52"
+              rx="24"
+              ry="46"
+              transform="rotate(72 100 100)"
+            ></ellipse>
+            <ellipse
+              cx="100"
+              cy="52"
+              rx="24"
+              ry="46"
+              transform="rotate(144 100 100)"
+            ></ellipse>
+            <ellipse
+              cx="100"
+              cy="52"
+              rx="24"
+              ry="46"
+              transform="rotate(216 100 100)"
+            ></ellipse>
+            <ellipse
+              cx="100"
+              cy="52"
+              rx="24"
+              ry="46"
+              transform="rotate(288 100 100)"
+            ></ellipse>
+          </g>
+        </svg>
+        <span class="logo__text">цветочный</span>
+      </a>
+
+      <nav class="header__nav">
+        <a href="#about" class="nav__link"> О проекте</a>
+        <a href="#articles" class="nav__link">Статьи</a>
+        <a href="#form" class="nav__button button">На связи</a>
+      </nav>
+    </header>
+
+    <button class="header__burger">
+      <span class="burger__line"></span>
+      <span class="burger__line"></span>
+    </button>
+
+    <div class="menu">
+      <nav class="menu__nav">
+        <a href="#about" class="menu__link">
+          <span class="menu__index">01</span>
+          &nbsp; О проекте
+        </a>
+
+        <a href="#articles" class="menu__link">
+          <span class="menu__index">02</span>
+          Статьи
+        </a>
+
+        <a href="#form" class="menu__link">
+          <span class="menu__index">03</span>
+          На связи
+        </a>
+      </nav>
+
+      <p class="menu__footer">учебный проект «цветочный»</p>
+    </div>
+
+    <section class="hero">
+      <div class="hero__inner">
+        <p class="hero__eyebrow">
+          учебный проект / 2 курс / «Дизайн и программирование»
+        </p>
+
+        <h1 class="hero__title">
+          <span class="hero__line split split--chars split-hover">цветоч</span>
+          <span class="hero__line hero__line--shift">
+            <span class="split split--chars split-hover split--delay">ный</span>
+            <span class="hero__plant">✿</span></span
+          >
+        </h1>
+      </div>
+
+      <div class="hero__bottom">
+        <p class="hero__text split split--delay split--words">
+          Медиа&nbsp;о&nbsp;растениях,&nbsp;цветах&nbsp;и&nbsp;тех,&nbsp;кто&nbsp;их&nbsp;выращивает.&nbsp;Мы&nbsp;еще&nbsp;поливаем
+          первые&nbsp;ростки,&nbsp;скоро&nbsp;здесь&nbsp;все&nbsp;расцветет!
+        </p>
+
+        <a href="#about" class="hero__scroll">листайте</a>
+      </div>
+    </section>
+
+    <!-- шпаргалка для навигации -->
+    <!-- <h1>Главная</h1>
 
     <h2>Разделы</h2>
     <ul>
       <li><a href="pages/articles.html">Статьи</a></li>
       <li><a href="pages/dictionary.html">Словарь</a></li>
       <li><a href="pages/tests.html">Тесты</a></li>
-    </ul>
+    </ul> -->
 
     <!-- Сборщик инфы -->
-    <div data-fs-success>Thanks for your submission!</div>
+    <!-- <div data-fs-success>Thanks for your submission!</div>
     <div data-fs-error>Oops! There was a problem submitting your form.</div>
     <form id="my-form">
       <label for="email">Email:</label>
@@ -27,7 +124,7 @@
       <input type="text" id="message" name="message" data-fs-field />
       <span data-fs-error="message"></span>
       <button type="submit" data-fs-submit-btn>Submit</button>
-    </form>
+    </form> -->
 
     <!-- Важно оставить внизу тега body -->
     <script>
